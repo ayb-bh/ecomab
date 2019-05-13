@@ -1,0 +1,47 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.bhsoft.ecomab",
+            "nativeLanguage": "en"
+        },
+        "jhipsterVersion": "5.8.2",
+        "applicationType": "monolith",
+        "baseName": "ecomab",
+        "packageName": "com.bhsoft.ecomab",
+        "packageFolder": "com/bhsoft/ecomab",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "h2Disk",
+        "prodDatabaseType": "postgresql",
+        "searchEngine": "elasticsearch",
+        "messageBroker": false,
+        "serviceDiscoveryType": "eureka",
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "MTcyZTM5ZWI0MjJhZWE5ZjQ0YjY3Zjk5MzU0Y2I4NDkxMDYyODlhNGRjMmVkNDUxZWYxMzA0Mzk5ZDQyN2FhZjk2NDg0ZTYyNzFjM2UwZTk0YTEwMThjMWQwM2NmNGMzM2YyNGE5MGI0ZjM4MzY1YTE3ODNiYjQyOGE4YTZhMDY=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [
+            {
+                "name": "generator-jhipster-nav-element",
+                "version": "2.1.4"
+            },
+            {
+                "name": "generator-jhipster-administration-database",
+                "version": "1.0.4"
+            }
+        ],
+        "enableTranslation": true,
+        "nativeLanguage": "en",
+        "languages": ["en", "ar-ly", "fr", "de", "es"]
+    }
+}

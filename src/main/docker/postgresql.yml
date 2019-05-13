@@ -1,0 +1,11 @@
+version: '2'
+services:
+    ecomab-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/ecomab/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=ecomab
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
